@@ -13,6 +13,7 @@ class App extends Component {
       url: 'http://via.placeholder.com/450x450',
     };
   }
+  
 
   getSignedRequest = ([file]) => {
     this.setState({ isUploading: true });
